@@ -5,4 +5,4 @@ const setUser = (payload) => ({
 
 export {
     setUser
-}
+} 

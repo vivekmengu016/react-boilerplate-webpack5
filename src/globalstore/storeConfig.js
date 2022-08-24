@@ -13,8 +13,8 @@ const configureStore = () => {
 	)
 	sagaMiddleware.run(rootSaga)
 	return store
-}
-
+} 
+ 
 const store = configureStore()
 
 export default store

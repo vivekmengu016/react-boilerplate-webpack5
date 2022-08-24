@@ -31,4 +31,4 @@ const mapStateToProps = (state) => ({
 
 export default connect(mapStateToProps, {
 	setUser
-})(Login);
+})(Login); 

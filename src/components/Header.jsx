@@ -6,7 +6,7 @@ const Header = ({ setUser }) => {
     const logout = (e) => {
         e.preventDefault();
         setUser(null);
-    }
+    } 
 
     return(
         <div className="header">

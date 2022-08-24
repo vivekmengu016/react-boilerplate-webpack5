@@ -42,4 +42,4 @@ export default connect(mapStateToProps,{
 	increment,
 	decrement,
 	setUser
-})(Dashboard);
+})(Dashboard); 

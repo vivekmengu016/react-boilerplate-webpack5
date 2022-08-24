@@ -17,4 +17,4 @@ const Cart = ({ setUser }) => (
 
 export default connect(null, {
 	setUser
-})(Cart);
+})(Cart); 

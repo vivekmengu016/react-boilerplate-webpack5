@@ -23,4 +23,4 @@ const ProductsSingle = (props) => {
 
 export default connect(null, {
 	setUser
-})(ProductsSingle);
+})(ProductsSingle); 

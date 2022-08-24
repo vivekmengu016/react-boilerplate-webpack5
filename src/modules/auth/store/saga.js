@@ -18,4 +18,4 @@ function* setUserSaga({ payload }) {
 
 export function* watchDashboard() {
     yield takeLatest('SETUSER', setUserSaga)
-}
+} 

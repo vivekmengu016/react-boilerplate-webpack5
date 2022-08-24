@@ -17,4 +17,4 @@ const Products = ({ setUser }) => (
 
 export default connect(null, {
 	setUser
-})(Products);
+})(Products); 

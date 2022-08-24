@@ -12,4 +12,4 @@ function* incrementSaga({ payload }) {
 
 export function* watchDashboard() {
     yield takeLatest('INCREMENT', incrementSaga)
-}
+} 

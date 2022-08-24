@@ -8,4 +8,4 @@ export default function* rootSaga() {
         ...Object.values(authSaga),
         ...Object.values(dashboardSaga)
     ].map(fork))
-}
+} 

@@ -8,4 +8,4 @@ const RootReducer = combineReducers({
     dashboard: dashboardReducer
 })
 
-export default RootReducer;
+export default RootReducer; 

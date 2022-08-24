@@ -89,4 +89,4 @@ const routesList = [
 	}
 ]
 
-export default routesList
+export default routesList 
