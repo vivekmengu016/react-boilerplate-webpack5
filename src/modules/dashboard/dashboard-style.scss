@@ -1,0 +1,38 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0 0 3px 2px #eee;
+	
+	ul.menu {
+		display: flex;
+		align-items: center;
+		list-style: none;
+	
+		li {
+			padding: 10px 15px;
+	
+			a {
+				text-decoration: none;
+				font-weight: bold;
+				color: #111;
+			}
+	
+			span.icon {
+				font-size: 1.2em;
+				font-weight: bold;
+				cursor: pointer;
+				width: 35px;
+				height: 35px;
+				background: #111;
+				color: #fff;
+				border-radius: 50%;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+	}
+}
