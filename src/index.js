@@ -13,11 +13,11 @@ const root = createRoot(rootElement);
 import "./styles/main.scss";
 
 root.render(
-  <StrictMode>
-    <Provider store={store}>
-      <BrowserRouter>
-        <JsonRoutes routesList={routesList} authMiddleware={authMiddleware} />
-      </BrowserRouter>
-    </Provider>
-  </StrictMode>
+	<StrictMode>
+		<Provider store={store}>
+			<BrowserRouter>
+				<JsonRoutes routesList={routesList} authMiddleware={authMiddleware} />
+			</BrowserRouter>
+		</Provider>
+	</StrictMode>
 );
